@@ -1,7 +1,6 @@
 import React from 'react'
 import Main from '../../assets/img/Main.svg';
 import Donations from '../../components/Donations';
-import Testimonials from '../../components/Testimonials';
 export default function Home() {
   return (
     <div>
@@ -12,7 +11,6 @@ export default function Home() {
         </div>
       </div>
       <Donations />
-      <Testimonials />
     </div>
   )
 }

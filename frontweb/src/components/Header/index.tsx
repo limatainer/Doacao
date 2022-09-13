@@ -33,6 +33,11 @@ export default function Header() {
           </div>
         </div>
       </nav>
+      <div className="relative flex py-5 items-center">
+        <div className="flex-grow border-t border-gray-400"></div>
+        <span className="flex-shrink mx-4 text-rocho-500">Acompanhe</span>
+        <div className="flex-grow border-t border-gray-400"></div>
+      </div>
     </>
   )
 }
