@@ -1,5 +1,6 @@
 import Footer from "./components/Footer"
 import Header from "./components/Header"
+import Formulario from "./Page/Formulario"
 import Home from "./Page/Home"
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <>
       <Header />
       <br />
-      <Home />
+      <Formulario />
       <br />
       <Footer />
     </>
