@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Home from "./Page/Home";
 import Formulario from "./Page/Formulario";
+import ParaDoar from "./Page/ParaDoar";
 
 const Rotas = () => (
   <BrowserRouter>
@@ -16,6 +17,9 @@ const Rotas = () => (
     </Routes>
     <Routes>
       <Route path="/formulario" element={<Formulario />} />
+    </Routes>
+    <Routes>
+      <Route path="/paradoar" element={<ParaDoar />} />
     </Routes>
     <Footer />
   </BrowserRouter>

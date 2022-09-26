@@ -25,7 +25,7 @@ export default function Navbar() {
                 <Link to="/formulario"><a href="#" className="block py-2 pr-4 pl-3 text-neutral-900 border-b border-gray-100 hover:text-doacao-300 lg:border-0 lg:p-0">Formulários</a></Link>
               </li>
               <li>
-                <a href="#" className="block py-2 pr-4 pl-3 text-neutral-900 border-b border-gray-100 hover:text-doacao-300 lg:border-0 lg:p-0">Para Doar</a>
+                <Link to="/paradoar"><a href="#" className="block py-2 pr-4 pl-3 text-neutral-900 border-b border-gray-100 hover:text-doacao-300 lg:border-0 lg:p-0">Para Doar</a> </Link>
               </li>
               <li>
                 <a href="#" className="block py-2 pr-4 pl-3 text-neutral-900 border-b border-gray-100 hover:text-doacao-300 lg:border-0 lg:p-0">Indicações</a>
@@ -34,9 +34,9 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-      <div className="relative flex py-5 items-center">
+      <div className="relative flex py-2 items-center">
         <div className="flex-grow border-t border-gray-400"></div>
-        <span className="flex-shrink mx-4 text-rocho-500">Acompanhe</span>
+        <span className="flex-shrink  text-rocho-500">Acompanhe</span>
         <div className="flex-grow border-t border-gray-400"></div>
       </div>
     </>

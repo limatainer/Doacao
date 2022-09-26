@@ -1,44 +1,57 @@
+import boneco from '../../assets/img/boneco.png';
+import mao from '../../assets/img/mao.png';
 export default function Formulario() {
 
   return (
     <>
+      <div className="container flex flex-row">
+        <span className='text-center font-light text-doacao-300'><p>Não precisamos de seu contato pessoal nem dados,
+          nós nunca iremos pedir isto. Neste formulario compartilhe a história de alguém que precisa
+          de uma dessas doações. Precisaremos apenas do
+          contacto da pessoa indicada e se der tudo certo avançaremos ou não com a doação</p></span>
+        <img src={mao} alt="mao" className='text-center' />
+
+      </div>
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
         <div className="bg-white py-8 px-6 shadow rounded-ls sm:px-10">
-          <h1>Formulario para compartilhar uma historia de quem precisa de ajuda</h1>
+          <p className='text-sm font-light'>Se você concordar em compartilhar a história de alguém e o contato de telefone desta pessoa poderá então avançar e preencher nosso formulário de indicações
+            Também deve concordar que sabe que isto não significa que iremos automáticamente fazer a doação para a pessoa que indicou mas que iremos avaliar.
+            As doações são anônimas e sem divulgação de nada, nem mídia nem postagens em lado algum</p>
+          <br />
           <form className="mb-0 space-y-3"
             action="https://docs.google.com/forms/d/e/1FAIpQLSfkC47Gi3kLeUoAeklz0iMXHcnapFrJPpTttT9O9Ea-GIVprQ/formResponse">
             <label for="formGoogle" className="sr-only">Formulario Doações </label>
-            <input className="border border-gray-300 
+            <input className="border border-doacao-300 
               rounded-md
               px-5
               py-3
               focus:outline-none
-              focus:ring-red-500
-              focus:border-red-500
+              focus:ring-rocho-500
+              focus:border-rocho-500
               w-full" type="text" placeholder="Nome" name="entry.1555852290" />
-            <input className="border border-gray-300 
+            <input className="border border-doacao-300 
               rounded-md
               px-5
               py-3
               focus:outline-none
-              focus:ring-red-500
-              focus:border-red-500
+              focus:ring-rocho-500
+              focus:border-rocho-500
               w-full" type="email" placeholder="Contacto" name="entry.1533199738" />
-            <textarea cols="30" rows="10" className="border border-gray-300 
+            <textarea cols="30" rows="10" className="border border-doacao-300 
               rounded-md
               px-5
               py-3
               focus:outline-none
-              focus:ring-red-500
-              focus:border-red-500
+              focus:ring-rocho-500
+              focus:border-rocho-500
               w-full" type="text" placeholder="Historia" name="entry.588283936" />
-            <input className="border border-gray-300 
+            <input className="border border-doacao-300 
               rounded-md
               px-5
               py-3
               focus:outline-none
-              focus:ring-red-500
-              focus:border-red-500
+              focus:ring-rocho-500
+              focus:border-rocho-500
               w-full" type="text" placeholder="Assinatura" name="entry.271024323" />
             <div className="mt-3
               sm:mt-0
@@ -46,7 +59,7 @@ export default function Formulario() {
               sm:flex-shrink-0
               ">
               <button className="
-              bg-red-500
+              bg-rocho-500
               px-5 py-3 
               text-white 
               rounded-md 
@@ -54,17 +67,19 @@ export default function Formulario() {
               items-center 
               justify-center
               
-              hover:bg-red-600
+              hover:bg-rocho-600
               focus:outline-none
               focus:ring-2
               focus:ring-offset-2
-              focus:ring-red-500
+              focus:ring-rocho-500
               w-full
               ">Send</button>
 
             </div>
           </form>
         </div>
+        <br />
+        <img src={boneco} alt="boneco" className='text-center' />
       </div>
     </>
   )
