@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import Home from "./Page/Home";
 import Formulario from "./Page/Formulario";
 import ParaDoar from "./Page/ParaDoar";
+import QuemSomos from "./Page/QuemSomos";
 
 const Rotas = () => (
   <BrowserRouter>
@@ -17,6 +18,9 @@ const Rotas = () => (
     </Routes>
     <Routes>
       <Route path="/formulario" element={<Formulario />} />
+    </Routes>
+    <Routes>
+      <Route path="/quemsomos" element={<QuemSomos />} />
     </Routes>
     <Routes>
       <Route path="/paradoar" element={<ParaDoar />} />
