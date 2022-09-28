@@ -4,23 +4,26 @@ export default function Formulario() {
 
   return (
     <>
-      <div className="container flex flex-row">
+      <div className="container flex flex-row items-center">
         <span className='text-center font-light text-doacao-300'><p>Não precisamos de seu contato pessoal nem dados,
           nós nunca iremos pedir isto. Neste formulario compartilhe a história de alguém que precisa
           de uma dessas doações. Precisaremos apenas do
           contacto da pessoa indicada e se der tudo certo avançaremos ou não com a doação</p></span>
         <img src={mao} alt="mao" className='text-center' />
-
       </div>
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
         <div className="bg-white py-8 px-6 shadow rounded-ls sm:px-10">
-          <p className='text-sm font-light'>Se você concordar em compartilhar a história de alguém e o contato de telefone desta pessoa poderá então avançar e preencher nosso formulário de indicações
-            Também deve concordar que sabe que isto não significa que iremos automáticamente fazer a doação para a pessoa que indicou mas que iremos avaliar.
-            As doações são anônimas e sem divulgação de nada, nem mídia nem postagens em lado algum</p>
+          <p className='text-sm font-normal'>Se você concorda em compartilhar a história
+            de alguém e o email desta pessoa, poderá então avançar e preencher
+            este formulário de indicações, caso a pessoa indicada não tenha email
+            pode escrever na história algum contato. <br /> Também deve concordar que sabe que isto
+            não significa que iremos automáticamente fazer a doação para a pessoa que indicou
+            mas que iremos avaliar. <br /> As doações são anônimas e sem divulgação, nem
+            mídia e nem postagens em lado algum.</p>
           <br />
           <form className="mb-0 space-y-3"
             action="https://docs.google.com/forms/d/e/1FAIpQLSfkC47Gi3kLeUoAeklz0iMXHcnapFrJPpTttT9O9Ea-GIVprQ/formResponse">
-            <label for="formGoogle" className="sr-only">Formulario Doações </label>
+            <label for="formGoogle" className="sr-only">Formuário Doações </label>
             <input className="border border-doacao-300 
               rounded-md
               px-5
@@ -36,7 +39,7 @@ export default function Formulario() {
               focus:outline-none
               focus:ring-rocho-500
               focus:border-rocho-500
-              w-full" type="email" placeholder="Contacto" name="entry.1533199738" />
+              w-full" type="email" placeholder="Email" name="entry.1533199738" />
             <textarea cols="30" rows="10" className="border border-doacao-300 
               rounded-md
               px-5
@@ -45,6 +48,7 @@ export default function Formulario() {
               focus:ring-rocho-500
               focus:border-rocho-500
               w-full" type="text" placeholder="Historia" name="entry.588283936" />
+            <span className='text-sm'>Autorizo compartilha esta história e contacto com Doações:</span>
             <input className="border border-doacao-300 
               rounded-md
               px-5
@@ -52,7 +56,7 @@ export default function Formulario() {
               focus:outline-none
               focus:ring-rocho-500
               focus:border-rocho-500
-              w-full" type="text" placeholder="Assinatura" name="entry.271024323" />
+              w-full" type="text" placeholder="Sua assinatura" name="entry.271024323" />
             <div className="mt-3
               sm:mt-0
               sm:ml-3
@@ -73,8 +77,7 @@ export default function Formulario() {
               focus:ring-offset-2
               focus:ring-rocho-500
               w-full
-              ">Send</button>
-
+              ">Enviar</button>
             </div>
           </form>
         </div>

@@ -10,7 +10,7 @@ export default function Donations() {
         <div className="flex flex-wrap -mx-1 lg:-mx-4">
           <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
             <article className="overflow-hidden rounded-lg shadow-lg">
-              <Link to="/paradoar">
+              <Link to="/formulario">
                 <img alt="Placeholder" className="block h-auto w-full" src={comida} />
               </Link>
               <header className="flex items-center justify-between leading-tight p-2 md:p-4">
@@ -31,7 +31,7 @@ export default function Donations() {
           </div>
           <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
             <article className="overflow-hidden rounded-lg shadow-lg">
-              <Link to="/paradoar">
+              <Link to="/formulario">
                 <img alt="Placeholder" className="block h-auto w-full" src={cesta} />
               </Link>
               <header className="flex items-center justify-between leading-tight p-2 md:p-4">
@@ -52,7 +52,7 @@ export default function Donations() {
           </div>
           <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
             <article className="overflow-hidden rounded-lg shadow-lg">
-              <Link to="/paradoar">
+              <Link to="/formulario">
                 <img alt="Placeholder" className="block h-auto w-full" src={pc} />
               </Link>
               <header className="flex items-center justify-between leading-tight p-2 md:p-4">
