@@ -1,6 +1,6 @@
-import cesta from '../../assets/img/cestabasica.jpg';
-import comida from '../../assets/img/doacao.jpg';
-import pc from '../../assets/img/notebook.jpg';
+import cesta from '/assets/img/cestabasica.jpg';
+import comida from '/assets/img/doacao.jpg';
+import pc from '/assets/img/notebook.jpg';
 
 import { Link } from "react-router-dom";
 export default function Donations() {

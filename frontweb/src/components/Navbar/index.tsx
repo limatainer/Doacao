@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import Logo from '../../assets/img/Logologo.svg';
+import Logo from '/assets/img/Logologo.svg';
 export default function Navbar() {
   return (
     <>
-      <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5">
+      <nav className="bg-white border-gray-200 rounded-md px-2 sm:px-4 py-2.5">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <Link to="/">
             <img src={Logo} className="mr-3 h-6 sm:h-16" alt="Logo" />

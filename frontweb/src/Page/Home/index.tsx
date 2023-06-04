@@ -1,5 +1,5 @@
 import React from 'react'
-import Main from '../../assets/img/Main.png';
+import Main from '/assets/img/Main.png';
 import Donations from '../../components/Donations';
 export default function Home() {
   return (
