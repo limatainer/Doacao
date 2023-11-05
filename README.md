@@ -6,7 +6,7 @@
   <br>
   <a href="https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg"><img src="https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg" alt="Coding" width="200"></a>
   <br>
-  Dotation web page for local ONG
+  Local ONG donation's landing page
   <br>
 </h1>
 
